@@ -15,16 +15,14 @@ impl Solution {
 // @lc code=end
 
 mod tests {
-    use super::Solution;
-
     #[test]
     fn simple() {
         assert_eq!(
-            Solution::single_non_duplicate(vec![1, 1, 2, 3, 3, 4, 4, 8, 8]),
+            super::Solution::single_non_duplicate(vec![1, 1, 2, 3, 3, 4, 4, 8, 8]),
             2
         );
         assert_eq!(
-            Solution::single_non_duplicate(vec![3, 3, 7, 7, 10, 11, 11]),
+            super::Solution::single_non_duplicate(vec![3, 3, 7, 7, 10, 11, 11]),
             10
         );
     }

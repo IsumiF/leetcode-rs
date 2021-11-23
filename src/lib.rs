@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 #[path = "62.unique-paths.rs"]
 mod unique_paths;
 #[path = "448.find-all-numbers-disappeared-in-an-array.rs"]

@@ -1,4 +1,3 @@
-
 /*
  * @lc app=leetcode id=448 lang=rust
  *
@@ -37,10 +36,11 @@ impl Solution {
 // @lc code=end
 
 mod tests {
-    use super::Solution;
-
     #[test]
     fn simple() {
-        assert_eq!(Solution::find_disappeared_numbers(vec![1, 3, 3, 4, 4]), vec![2, 5]);
+        assert_eq!(
+            super::Solution::find_disappeared_numbers(vec![1, 3, 3, 4, 4]),
+            vec![2, 5]
+        );
     }
 }
