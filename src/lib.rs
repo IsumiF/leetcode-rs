@@ -2,6 +2,8 @@
 mod unique_paths;
 #[path = "448.find-all-numbers-disappeared-in-an-array.rs"]
 mod find_all_numbers_disappeared_in_an_array;
+#[path = "540.single-element-in-a-sorted-array.rs"]
+mod p540;
 
 #[cfg(test)]
 mod tests {
