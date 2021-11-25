@@ -6,6 +6,10 @@ mod unique_paths;
 mod find_all_numbers_disappeared_in_an_array;
 #[path = "540.single-element-in-a-sorted-array.rs"]
 mod p540;
+#[path = "952.largest-component-size-by-common-factor.rs"]
+mod p952;
+#[path = "986.interval-list-intersections.rs"]
+mod p986;
 
 #[cfg(test)]
 mod tests {
