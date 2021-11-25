@@ -10,6 +10,8 @@ mod p540;
 mod p952;
 #[path = "986.interval-list-intersections.rs"]
 mod p986;
+#[path = "53.maximum-subarray.rs"]
+mod p53;
 
 #[cfg(test)]
 mod tests {
