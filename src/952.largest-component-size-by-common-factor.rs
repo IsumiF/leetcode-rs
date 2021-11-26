@@ -18,20 +18,20 @@ impl Solution {
         if let Some(max_num) = nums.iter().max() {
             let mut dsu = DSU::new((max_num + 1) as usize);
             let mut parent_to_count: HashMap<usize, i32> = HashMap::new();
-            for num in nums.iter() {
+            nums.iter().for_each(|num| {
                 let sqrt = (*num as f64).sqrt() as i32;
-                for factor in 2..=sqrt {
+                (2..=sqrt).for_each(|factor| {
                     if num % factor == 0 {
                         dsu.union(*num as usize, (num / factor) as usize);
                         dsu.union(*num as usize, factor as usize);
                     }
-                }
-            }
+                });
+            });
 
-            for num in nums.iter() {
+            nums.iter().for_each(|num| {
                 let par = dsu.find(*num as usize);
                 parent_to_count.insert(par, parent_to_count.get(&par).unwrap_or(&0) + 1);
-            }
+            });
             parent_to_count
                 .iter()
                 .map(|(_, &count)| count)
