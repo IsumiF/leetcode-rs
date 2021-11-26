@@ -1,4 +1,3 @@
-
 /*
  * @lc app=leetcode id=35 lang=rust
  *
@@ -13,9 +12,11 @@ use std::convert::TryInto;
 impl Solution {
     pub fn search_insert(nums: Vec<i32>, target: i32) -> i32 {
         match nums.binary_search(&target) {
-            Ok(idx) => idx.try_into().unwrap(),
-            Err(idx) => idx.try_into().unwrap(),
+            Ok(idx) => idx,
+            Err(idx) => idx,
         }
+        .try_into()
+        .unwrap()
     }
 }
 // @lc code=end
