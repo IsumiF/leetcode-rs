@@ -12,6 +12,8 @@ mod p952;
 mod p986;
 #[path = "53.maximum-subarray.rs"]
 mod p53;
+#[path = "35.search-insert-position.rs"]
+mod p35;
 
 #[cfg(test)]
 mod tests {
