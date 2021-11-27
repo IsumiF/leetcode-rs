@@ -14,6 +14,8 @@ mod p986;
 mod p53;
 #[path = "35.search-insert-position.rs"]
 mod p35;
+#[path = "238.product-of-array-except-self.rs"]
+mod p238;
 
 #[cfg(test)]
 mod tests {
