@@ -16,6 +16,8 @@ mod p53;
 mod p35;
 #[path = "238.product-of-array-except-self.rs"]
 mod p238;
+#[path = "797.all-paths-from-source-to-target.rs"]
+mod p797;
 
 #[cfg(test)]
 mod tests {
