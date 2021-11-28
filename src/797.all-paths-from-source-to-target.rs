@@ -15,7 +15,10 @@ impl Solution {
             .collect();
         Self::all_paths_source_target_rec(&graph_usize, 0)
             .into_iter()
-            .map(|v| v.into_iter().map(|x| x as i32).rev().collect())
+            .map(|mut v| {
+                v.reverse();
+                v.into_iter().map(|x| x as i32).collect()
+            })
             .collect()
     }
 
