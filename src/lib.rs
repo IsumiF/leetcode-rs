@@ -18,6 +18,10 @@ mod p35;
 mod p238;
 #[path = "797.all-paths-from-source-to-target.rs"]
 mod p797;
+#[path = "721.accounts-merge.rs"]
+mod p721;
+#[path = "206.reverse-linked-list.rs"]
+mod p206;
 
 #[cfg(test)]
 mod tests {
