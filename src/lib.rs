@@ -22,6 +22,10 @@ mod p797;
 mod p721;
 #[path = "206.reverse-linked-list.rs"]
 mod p206;
+#[path = "85.maximal-rectangle.rs"]
+mod p85;
+#[path = "198.house-robber.rs"]
+mod p198;
 
 #[cfg(test)]
 mod tests {
