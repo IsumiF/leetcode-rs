@@ -26,6 +26,8 @@ mod p206;
 mod p85;
 #[path = "198.house-robber.rs"]
 mod p198;
+#[path = "328.odd-even-linked-list.rs"]
+mod p328;
 
 #[cfg(test)]
 mod tests {
