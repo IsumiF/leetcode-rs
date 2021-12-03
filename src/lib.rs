@@ -28,6 +28,8 @@ mod p85;
 mod p198;
 #[path = "328.odd-even-linked-list.rs"]
 mod p328;
+#[path = "152.maximum-product-subarray.rs"]
+mod p152;
 
 #[cfg(test)]
 mod tests {
