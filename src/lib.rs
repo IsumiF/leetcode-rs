@@ -30,6 +30,8 @@ mod p198;
 mod p328;
 #[path = "152.maximum-product-subarray.rs"]
 mod p152;
+#[path = "1032.stream-of-characters.rs"]
+mod p1032;
 
 #[cfg(test)]
 mod tests {
