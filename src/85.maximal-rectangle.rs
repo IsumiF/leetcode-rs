@@ -10,38 +10,63 @@ struct Solution {}
 impl Solution {
     pub fn maximal_rectangle(matrix: Vec<Vec<char>>) -> i32 {
         match matrix.first() {
-            None => 0,
             Some(first_row) => {
-                let row_count = matrix.len();
-                let col_count = first_row.len();
-                let mut cache = vec![vec![0; col_count]; row_count];
-                for (row_idx, row) in matrix.iter().enumerate() {
-                    for (col_idx, &cell) in row.iter().enumerate() {
-                        if cell == '1' {
-                            cache[row_idx][col_idx] = if row_idx == 0 || col_idx == 0 {
-                                1
+                let mut histogram = vec![0; first_row.len()];
+                let max_area = matrix
+                    .into_iter()
+                    .map(|row| {
+                        for (idx, cell) in row.into_iter().enumerate() {
+                            if cell == '1' {
+                                histogram[idx] += 1;
                             } else {
-                                *[
-                                    cache[row_idx - 1][col_idx],
-                                    cache[row_idx][col_idx - 1],
-                                    cache[row_idx - 1][col_idx - 1],
-                                ]
-                                .iter()
-                                .min()
-                                .unwrap()
-                                    + 1
+                                histogram[idx] = 0;
                             }
                         }
-                    }
-                }
-                println!("cache: {:?}", cache);
-                *cache
-                    .iter()
-                    .map(|row| row.iter().max().unwrap())
+                        Self::largest_rectangle_area(&histogram)
+                    })
                     .max()
-                    .unwrap_or(&0)
+                    .unwrap_or(0);
+                max_area
             }
+            None => 0,
         }
+    }
+
+    fn largest_rectangle_area(heights: &Vec<i32>) -> i32 {
+        let mut stack = Vec::<usize>::new();
+        stack.reserve_exact(heights.len());
+        let mut max_area: i32 = i32::MIN;
+        let mut pop = |stack: &mut Vec<usize>, right_index: usize| -> bool {
+            if let Some(cur_idx) = stack.pop() {
+                let left_index = stack.last().map(|&left_index| left_index + 1).unwrap_or(0);
+                let cur_area = (right_index - left_index + 1) as i32 * heights[cur_idx];
+                if cur_area > max_area {
+                    max_area = cur_area;
+                }
+                true
+            } else {
+                false
+            }
+        };
+
+        for (idx, &height) in heights.iter().enumerate() {
+            loop {
+                if !stack
+                    .last()
+                    .map(|&prev_idx| heights[prev_idx] < height)
+                    .unwrap_or(true)
+                {
+                    pop(&mut stack, idx - 1);
+                } else {
+                    break;
+                }
+            }
+            stack.push(idx);
+        }
+        while !stack.is_empty() {
+            pop(&mut stack, heights.len() - 1);
+        }
+        max_area
     }
 }
 
@@ -57,6 +82,7 @@ mod tests {
     #[test_case(vec![vec![0]] => 0; "zero")]
     #[test_case(vec![vec![1]] => 1; "one")]
     #[test_case(vec![vec![0, 0]] => 0; "one row")]
+    #[test_case(vec![vec![0, 1], vec![1, 0]] => 1)]
     fn test(matrix: Vec<Vec<i32>>) -> i32 {
         Solution::maximal_rectangle(
             matrix
