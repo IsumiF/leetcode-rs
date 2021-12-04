@@ -32,6 +32,8 @@ mod p328;
 mod p152;
 #[path = "1032.stream-of-characters.rs"]
 mod p1032;
+#[path = "84.largest-rectangle-in-histogram.rs"]
+mod p84;
 
 #[cfg(test)]
 mod tests {
