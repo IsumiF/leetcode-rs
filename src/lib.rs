@@ -34,6 +34,8 @@ mod p152;
 mod p1032;
 #[path = "84.largest-rectangle-in-histogram.rs"]
 mod p84;
+#[path = "337.house-robber-iii.rs"]
+mod p337;
 
 #[cfg(test)]
 mod tests {
