@@ -36,6 +36,8 @@ mod p1032;
 mod p84;
 #[path = "337.house-robber-iii.rs"]
 mod p337;
+#[path = "1217.minimum-cost-to-move-chips-to-the-same-position.rs"]
+mod p1217;
 
 #[cfg(test)]
 mod tests {
