@@ -38,6 +38,8 @@ mod p84;
 mod p337;
 #[path = "1217.minimum-cost-to-move-chips-to-the-same-position.rs"]
 mod p1217;
+#[path = "1290.convert-binary-number-in-a-linked-list-to-integer.rs"]
+mod p1290;
 
 #[cfg(test)]
 mod tests {
