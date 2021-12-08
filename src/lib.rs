@@ -40,6 +40,8 @@ mod p337;
 mod p1217;
 #[path = "1290.convert-binary-number-in-a-linked-list-to-integer.rs"]
 mod p1290;
+#[path = "1034.coloring-a-border.rs"]
+mod p1034;
 
 #[cfg(test)]
 mod tests {
