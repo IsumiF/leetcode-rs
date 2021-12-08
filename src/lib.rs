@@ -42,6 +42,8 @@ mod p1217;
 mod p1290;
 #[path = "1034.coloring-a-border.rs"]
 mod p1034;
+#[path = "563.binary-tree-tilt.rs"]
+mod p563;
 
 #[cfg(test)]
 mod tests {
