@@ -44,6 +44,8 @@ mod p1290;
 mod p1034;
 #[path = "563.binary-tree-tilt.rs"]
 mod p563;
+#[path = "1306.jump-game-iii.rs"]
+mod p1306;
 
 #[cfg(test)]
 mod tests {
