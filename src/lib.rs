@@ -46,6 +46,8 @@ mod p1034;
 mod p563;
 #[path = "1306.jump-game-iii.rs"]
 mod p1306;
+#[path = "689.maximum-sum-of-3-non-overlapping-subarrays.rs"]
+mod p689;
 
 #[cfg(test)]
 mod tests {
