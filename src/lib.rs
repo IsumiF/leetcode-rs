@@ -48,6 +48,8 @@ mod p563;
 mod p1306;
 #[path = "689.maximum-sum-of-3-non-overlapping-subarrays.rs"]
 mod p689;
+#[path = "790.domino-and-tromino-tiling.rs"]
+mod p790;
 
 #[cfg(test)]
 mod tests {
