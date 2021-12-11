@@ -50,6 +50,8 @@ mod p1306;
 mod p689;
 #[path = "790.domino-and-tromino-tiling.rs"]
 mod p790;
+#[path = "878.nth-magical-number.rs"]
+mod p878;
 
 #[cfg(test)]
 mod tests {
