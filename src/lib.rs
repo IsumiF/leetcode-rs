@@ -52,6 +52,8 @@ mod p689;
 mod p790;
 #[path = "878.nth-magical-number.rs"]
 mod p878;
+#[path = "416.partition-equal-subset-sum.rs"]
+mod p416;
 
 #[cfg(test)]
 mod tests {
