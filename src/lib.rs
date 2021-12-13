@@ -54,6 +54,8 @@ mod p790;
 mod p878;
 #[path = "416.partition-equal-subset-sum.rs"]
 mod p416;
+#[path = "1446.consecutive-characters.rs"]
+mod p1446;
 
 #[cfg(test)]
 mod tests {
