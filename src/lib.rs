@@ -56,6 +56,8 @@ mod p878;
 mod p416;
 #[path = "1446.consecutive-characters.rs"]
 mod p1446;
+#[path = "938.range-sum-of-bst.rs"]
+mod p938;
 
 #[cfg(test)]
 mod tests {
