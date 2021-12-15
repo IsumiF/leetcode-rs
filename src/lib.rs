@@ -58,6 +58,8 @@ mod p416;
 mod p1446;
 #[path = "938.range-sum-of-bst.rs"]
 mod p938;
+#[path = "147.insertion-sort-list.rs"]
+mod p147;
 
 #[cfg(test)]
 mod tests {
