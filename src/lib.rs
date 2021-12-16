@@ -60,6 +60,8 @@ mod p1446;
 mod p938;
 #[path = "147.insertion-sort-list.rs"]
 mod p147;
+#[path = "310.minimum-height-trees.rs"]
+mod p310;
 
 #[cfg(test)]
 mod tests {
