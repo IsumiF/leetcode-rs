@@ -62,6 +62,8 @@ mod p938;
 mod p147;
 #[path = "310.minimum-height-trees.rs"]
 mod p310;
+#[path = "221.maximal-square.rs"]
+mod p221;
 
 #[cfg(test)]
 mod tests {
