@@ -64,6 +64,8 @@ mod p147;
 mod p310;
 #[path = "221.maximal-square.rs"]
 mod p221;
+#[path = "902.numbers-at-most-n-given-digit-set.rs"]
+mod p902;
 
 #[cfg(test)]
 mod tests {
