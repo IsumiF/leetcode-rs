@@ -66,6 +66,8 @@ mod p310;
 mod p221;
 #[path = "902.numbers-at-most-n-given-digit-set.rs"]
 mod p902;
+#[path = "394.decode-string.rs"]
+mod p394;
 
 #[cfg(test)]
 mod tests {
