@@ -68,6 +68,8 @@ mod p221;
 mod p902;
 #[path = "394.decode-string.rs"]
 mod p394;
+#[path = "1200.minimum-absolute-difference.rs"]
+mod p1200;
 
 #[cfg(test)]
 mod tests {
