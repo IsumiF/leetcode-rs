@@ -70,6 +70,8 @@ mod p902;
 mod p394;
 #[path = "1200.minimum-absolute-difference.rs"]
 mod p1200;
+#[path = "231.power-of-two.rs"]
+mod p231;
 
 #[cfg(test)]
 mod tests {
