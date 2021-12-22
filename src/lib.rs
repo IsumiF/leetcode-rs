@@ -72,6 +72,8 @@ mod p394;
 mod p1200;
 #[path = "231.power-of-two.rs"]
 mod p231;
+#[path = "143.reorder-list.rs"]
+mod p143;
 
 #[cfg(test)]
 mod tests {
