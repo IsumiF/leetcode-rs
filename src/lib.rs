@@ -74,6 +74,8 @@ mod p1200;
 mod p231;
 #[path = "143.reorder-list.rs"]
 mod p143;
+#[path = "210.course-schedule-ii.rs"]
+mod p210;
 
 #[cfg(test)]
 mod tests {
