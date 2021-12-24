@@ -76,6 +76,8 @@ mod p231;
 mod p143;
 #[path = "210.course-schedule-ii.rs"]
 mod p210;
+#[path = "56.merge-intervals.rs"]
+mod p56;
 
 #[cfg(test)]
 mod tests {
