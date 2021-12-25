@@ -78,6 +78,8 @@ mod p143;
 mod p210;
 #[path = "56.merge-intervals.rs"]
 mod p56;
+#[path = "227.basic-calculator-ii.rs"]
+mod p227;
 
 #[cfg(test)]
 mod tests {
