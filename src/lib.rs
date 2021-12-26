@@ -80,6 +80,8 @@ mod p210;
 mod p56;
 #[path = "227.basic-calculator-ii.rs"]
 mod p227;
+#[path = "973.k-closest-points-to-origin.rs"]
+mod p973;
 
 #[cfg(test)]
 mod tests {
