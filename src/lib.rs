@@ -82,6 +82,8 @@ mod p56;
 mod p227;
 #[path = "973.k-closest-points-to-origin.rs"]
 mod p973;
+#[path = "476.number-complement.rs"]
+mod p476;
 
 #[cfg(test)]
 mod tests {
