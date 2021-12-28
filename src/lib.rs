@@ -84,6 +84,8 @@ mod p227;
 mod p973;
 #[path = "476.number-complement.rs"]
 mod p476;
+#[path = "876.middle-of-the-linked-list.rs"]
+mod p876;
 
 #[cfg(test)]
 mod tests {
