@@ -86,6 +86,8 @@ mod p973;
 mod p476;
 #[path = "876.middle-of-the-linked-list.rs"]
 mod p876;
+#[path = "1015.smallest-integer-divisible-by-k.rs"]
+mod p1015;
 
 #[cfg(test)]
 mod tests {
