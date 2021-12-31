@@ -88,6 +88,8 @@ mod p476;
 mod p876;
 #[path = "1015.smallest-integer-divisible-by-k.rs"]
 mod p1015;
+#[path = "1026.maximum-difference-between-node-and-ancestor.rs"]
+mod p1026;
 
 #[cfg(test)]
 mod tests {
