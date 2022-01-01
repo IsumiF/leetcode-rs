@@ -90,6 +90,8 @@ mod p876;
 mod p1015;
 #[path = "1026.maximum-difference-between-node-and-ancestor.rs"]
 mod p1026;
+#[path = "312.burst-balloons.rs"]
+mod p312;
 
 #[cfg(test)]
 mod tests {
