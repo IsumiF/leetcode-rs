@@ -92,6 +92,8 @@ mod p1015;
 mod p1026;
 #[path = "312.burst-balloons.rs"]
 mod p312;
+#[path = "1010.pairs-of-songs-with-total-durations-divisible-by-60.rs"]
+mod p1010;
 
 #[cfg(test)]
 mod tests {
