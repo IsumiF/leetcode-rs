@@ -94,11 +94,5 @@ mod p1026;
 mod p312;
 #[path = "1010.pairs-of-songs-with-total-durations-divisible-by-60.rs"]
 mod p1010;
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+#[path = "997.find-the-town-judge.rs"]
+mod p997;
