@@ -96,3 +96,5 @@ mod p312;
 mod p1010;
 #[path = "997.find-the-town-judge.rs"]
 mod p997;
+#[path = "1009.complement-of-base-10-integer.rs"]
+mod p1009;
