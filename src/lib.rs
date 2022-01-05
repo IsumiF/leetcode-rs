@@ -98,3 +98,5 @@ mod p1010;
 mod p997;
 #[path = "1009.complement-of-base-10-integer.rs"]
 mod p1009;
+#[path = "131.palindrome-partitioning.rs"]
+mod p131;
