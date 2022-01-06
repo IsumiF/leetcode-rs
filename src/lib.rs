@@ -100,3 +100,5 @@ mod p997;
 mod p1009;
 #[path = "131.palindrome-partitioning.rs"]
 mod p131;
+#[path = "1094.car-pooling.rs"]
+mod p1094;
