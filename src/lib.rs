@@ -102,3 +102,5 @@ mod p1009;
 mod p131;
 #[path = "1094.car-pooling.rs"]
 mod p1094;
+#[path = "382.linked-list-random-node.rs"]
+mod p382;
