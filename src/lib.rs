@@ -106,3 +106,5 @@ mod p1094;
 mod p382;
 #[path = "1463.cherry-pickup-ii.rs"]
 mod p1463;
+#[path = "1041.robot-bounded-in-circle.rs"]
+mod p1041;
