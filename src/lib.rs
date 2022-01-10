@@ -108,3 +108,5 @@ mod p382;
 mod p1463;
 #[path = "1041.robot-bounded-in-circle.rs"]
 mod p1041;
+#[path = "67.add-binary.rs"]
+mod p67;
