@@ -110,3 +110,5 @@ mod p1463;
 mod p1041;
 #[path = "67.add-binary.rs"]
 mod p67;
+#[path = "1022.sum-of-root-to-leaf-binary-numbers.rs"]
+mod p1022;
