@@ -112,3 +112,5 @@ mod p1041;
 mod p67;
 #[path = "1022.sum-of-root-to-leaf-binary-numbers.rs"]
 mod p1022;
+#[path = "701.insert-into-a-binary-search-tree.rs"]
+mod p701;
