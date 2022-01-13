@@ -114,3 +114,5 @@ mod p67;
 mod p1022;
 #[path = "701.insert-into-a-binary-search-tree.rs"]
 mod p701;
+#[path = "452.minimum-number-of-arrows-to-burst-balloons.rs"]
+mod p452;
