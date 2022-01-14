@@ -116,3 +116,5 @@ mod p1022;
 mod p701;
 #[path = "452.minimum-number-of-arrows-to-burst-balloons.rs"]
 mod p452;
+#[path = "8.string-to-integer-atoi.rs"]
+mod p8;
