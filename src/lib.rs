@@ -118,3 +118,5 @@ mod p701;
 mod p452;
 #[path = "8.string-to-integer-atoi.rs"]
 mod p8;
+#[path = "1345.jump-game-iv.rs"]
+mod p1345;
