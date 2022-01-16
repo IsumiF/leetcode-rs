@@ -120,3 +120,5 @@ mod p452;
 mod p8;
 #[path = "1345.jump-game-iv.rs"]
 mod p1345;
+#[path = "849.maximize-distance-to-closest-person.rs"]
+mod p849;
