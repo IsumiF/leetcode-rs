@@ -122,3 +122,5 @@ mod p8;
 mod p1345;
 #[path = "849.maximize-distance-to-closest-person.rs"]
 mod p849;
+#[path = "290.word-pattern.rs"]
+mod p290;
