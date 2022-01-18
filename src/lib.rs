@@ -124,3 +124,5 @@ mod p1345;
 mod p849;
 #[path = "290.word-pattern.rs"]
 mod p290;
+#[path = "605.can-place-flowers.rs"]
+mod p605;
