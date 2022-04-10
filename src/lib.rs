@@ -126,3 +126,5 @@ mod p849;
 mod p290;
 #[path = "605.can-place-flowers.rs"]
 mod p605;
+#[path = "682.baseball-game.rs"]
+mod p682;
