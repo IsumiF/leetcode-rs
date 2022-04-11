@@ -128,3 +128,5 @@ mod p290;
 mod p605;
 #[path = "682.baseball-game.rs"]
 mod p682;
+#[path = "1260.shift-2-d-grid.rs"]
+mod p1260;
