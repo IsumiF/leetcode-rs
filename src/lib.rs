@@ -130,3 +130,7 @@ mod p605;
 mod p682;
 #[path = "1260.shift-2-d-grid.rs"]
 mod p1260;
+#[path = "173.binary-search-tree-iterator.rs"]
+mod p173;
+#[path = "705.design-hash-set.rs"]
+mod p705;
