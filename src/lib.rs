@@ -134,3 +134,9 @@ mod p1260;
 mod p173;
 #[path = "705.design-hash-set.rs"]
 mod p705;
+#[path = "706.design-hash-map.rs"]
+mod p706;
+#[path = "535.encode-and-decode-tiny-url.rs"]
+mod p535;
+#[path = "1396.design-underground-system.rs"]
+mod p1396;
