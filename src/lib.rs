@@ -140,3 +140,5 @@ mod p706;
 mod p535;
 #[path = "1396.design-underground-system.rs"]
 mod p1396;
+#[path = "1584.min-cost-to-connect-all-points.rs"]
+mod p1584;
