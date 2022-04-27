@@ -142,3 +142,5 @@ mod p535;
 mod p1396;
 #[path = "1584.min-cost-to-connect-all-points.rs"]
 mod p1584;
+#[path = "1202.smallest-string-with-swaps.rs"]
+mod p1202;
