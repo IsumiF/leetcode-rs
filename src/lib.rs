@@ -144,3 +144,7 @@ mod p1396;
 mod p1584;
 #[path = "1202.smallest-string-with-swaps.rs"]
 mod p1202;
+#[path = "1631.path-with-minimum-effort.rs"]
+mod p1631;
+#[path = "785.is-graph-bipartite.rs"]
+mod p785;
