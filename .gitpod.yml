@@ -4,5 +4,5 @@
 
 tasks:
   - init: |
-      cargo build --debug
+      cargo build
       cargo build --release
