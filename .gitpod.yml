@@ -6,3 +6,7 @@ tasks:
   - init: |
       cargo build
       cargo build --release
+
+vscode:
+  extensions:
+    - eamodio.gitlens
