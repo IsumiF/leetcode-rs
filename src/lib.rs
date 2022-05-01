@@ -150,3 +150,5 @@ mod p1631;
 mod p785;
 #[path = "399.evaluate-division.rs"]
 mod p399;
+#[path = "844.backspace-string-compare.rs"]
+mod p844;
