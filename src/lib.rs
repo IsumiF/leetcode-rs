@@ -152,3 +152,5 @@ mod p785;
 mod p399;
 #[path = "844.backspace-string-compare.rs"]
 mod p844;
+#[path = "905.sort-array-by-parity.rs"]
+mod p905;
