@@ -154,3 +154,5 @@ mod p399;
 mod p844;
 #[path = "905.sort-array-by-parity.rs"]
 mod p905;
+#[path = "1679.max-number-of-k-sum-pairs.rs"]
+mod p1679;

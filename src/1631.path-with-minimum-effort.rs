@@ -8,7 +8,7 @@ struct Solution {}
 
 // @lc code=start
 impl Solution {
-    pub fn minimum_effort_path(heights: Vec<Vec<i32>>) -> i32 {
+    pub fn minimum_effort_path(_: Vec<Vec<i32>>) -> i32 {
         // let distance: Vec<Vev<(usize, usize), i32>>> = vec![vec![(); heights[0].len()]; heights.len()];
         todo!()
     }
