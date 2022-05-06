@@ -156,3 +156,7 @@ mod p844;
 mod p905;
 #[path = "1679.max-number-of-k-sum-pairs.rs"]
 mod p1679;
+#[path = "225.implement-stack-using-queues.rs"]
+mod p225;
+#[path = "1209.remove-all-adjacent-duplicates-in-string-ii.rs"]
+mod p1209;
