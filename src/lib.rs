@@ -160,3 +160,5 @@ mod p1679;
 mod p225;
 #[path = "1209.remove-all-adjacent-duplicates-in-string-ii.rs"]
 mod p1209;
+#[path = "341.flatten-nested-list-iterator.rs"]
+mod p341;
