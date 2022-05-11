@@ -166,3 +166,5 @@ mod p341;
 mod p17;
 #[path = "216.combination-sum-iii.rs"]
 mod p216;
+#[path = "1641.count-sorted-vowel-strings.rs"]
+mod p1641;
