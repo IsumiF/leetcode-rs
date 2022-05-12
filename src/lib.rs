@@ -168,3 +168,5 @@ mod p17;
 mod p216;
 #[path = "1641.count-sorted-vowel-strings.rs"]
 mod p1641;
+#[path = "47.permutations-ii.rs"]
+mod p47;
