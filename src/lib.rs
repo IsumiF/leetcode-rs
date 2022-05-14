@@ -170,3 +170,5 @@ mod p216;
 mod p1641;
 #[path = "47.permutations-ii.rs"]
 mod p47;
+#[path = "743.network-delay-time.rs"]
+mod p743;
