@@ -172,3 +172,5 @@ mod p1641;
 mod p47;
 #[path = "743.network-delay-time.rs"]
 mod p743;
+#[path = "1091.shortest-path-in-binary-matrix.rs"]
+mod p1091;
