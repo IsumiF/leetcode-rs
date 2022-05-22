@@ -174,3 +174,5 @@ mod p47;
 mod p743;
 #[path = "1091.shortest-path-in-binary-matrix.rs"]
 mod p1091;
+#[path = "647.palindromic-substrings.rs"]
+mod p647;
