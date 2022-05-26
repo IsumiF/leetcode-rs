@@ -176,3 +176,7 @@ mod p743;
 mod p1091;
 #[path = "647.palindromic-substrings.rs"]
 mod p647;
+#[path = "474.ones-and-zeroes.rs"]
+mod p474;
+#[path = "191.number-of-1-bits.rs"]
+mod p191;
