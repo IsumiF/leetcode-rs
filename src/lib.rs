@@ -180,3 +180,5 @@ mod p647;
 mod p474;
 #[path = "191.number-of-1-bits.rs"]
 mod p191;
+#[path = "318.maximum-product-of-word-lengths.rs"]
+mod p318;
