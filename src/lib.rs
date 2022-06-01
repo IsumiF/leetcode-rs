@@ -182,3 +182,5 @@ mod p474;
 mod p191;
 #[path = "318.maximum-product-of-word-lengths.rs"]
 mod p318;
+#[path = "1480.running-sum-of-1-d-array.rs"]
+mod p1480;
