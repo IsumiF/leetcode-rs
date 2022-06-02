@@ -184,3 +184,5 @@ mod p191;
 mod p318;
 #[path = "1480.running-sum-of-1-d-array.rs"]
 mod p1480;
+#[path = "867.transpose-matrix.rs"]
+mod p867;
