@@ -186,3 +186,7 @@ mod p318;
 mod p1480;
 #[path = "867.transpose-matrix.rs"]
 mod p867;
+#[path = "51.n-queens.rs"]
+mod p51;
+#[path = "52.n-queens-ii.rs"]
+mod p52;
