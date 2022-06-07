@@ -190,3 +190,5 @@ mod p867;
 mod p51;
 #[path = "52.n-queens-ii.rs"]
 mod p52;
+#[path = "88.merge-sorted-array.rs"]
+mod p88;
