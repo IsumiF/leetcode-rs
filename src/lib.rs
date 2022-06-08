@@ -192,3 +192,5 @@ mod p51;
 mod p52;
 #[path = "88.merge-sorted-array.rs"]
 mod p88;
+#[path = "1332.remove-palindromic-subsequences.rs"]
+mod p1332;
