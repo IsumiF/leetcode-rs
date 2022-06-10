@@ -194,3 +194,7 @@ mod p52;
 mod p88;
 #[path = "1332.remove-palindromic-subsequences.rs"]
 mod p1332;
+#[path = "167.two-sum-ii-input-array-is-sorted.rs"]
+mod p167;
+#[path = "3.longest-substring-without-repeating-characters.rs"]
+mod p3;
