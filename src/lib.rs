@@ -198,3 +198,5 @@ mod p1332;
 mod p167;
 #[path = "3.longest-substring-without-repeating-characters.rs"]
 mod p3;
+#[path = "5.longest-palindromic-substring.rs"]
+mod p5;
